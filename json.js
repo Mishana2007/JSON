@@ -7,7 +7,7 @@ const axios = require('axios');
 // Токен вашего бота и канал для проверки
 const token = '7251480208:AAHUy1k1qW__Gi6WlrixsHebwrDWFcYauoQ';
 const requiredChannel = '@naneironkah'; 
-const channelUrl = `https://t.me/${requiredChannel.replace('@', '')}`; // Ссылка на канал
+const channelUrl = `https://click.tgtrack.ru/78a7252e523bd`; // Ссылка на канал
 
 // Создание экземпляра бота
 const bot = new TelegramBot(token, { polling: true });
